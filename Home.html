@@ -17,58 +17,74 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-        <div id="logo" class="navbar-brand"> Slime</div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>  
+            <div id="logo" class="navbar-brand"> Slime</div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls=""
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
 
-        </button>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="">Features</a>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbardrop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Features
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbardrop">
+                            <a class="dropdown-item" href="">Todo list</a>
+                            <a class="dropdown-item" href="">Calendar</a>
+                            <a class="dropdown-item" href="">Reminders</a>
+                            <a class="dropdown-item" href="">Planning</a>
 
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Company</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Careers</a>
-                </li>
-                <li class="nav-item"> 
-                    <a class="nav-link" href="">About</a>
-                </li>
 
-            </ul>
 
+                        </div>
+                    
+
+                    </li>
+                    
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">About</a>
+                    </li>
+
+                </ul>
+
+            </div>
         </div>
-    </div>
     </nav>
 
     <!-- Hero section-->
 
-    <section id="Hero" >
+    <section id="Hero">
         <div class="container">
-            <div class="row align-items-center justify-content-center ">
-                <div class="col-md-5 mt-5 text-center pe-5 me-5">
-                    <h1>
-                        <div class="display-5">Make remote Work</div>
-                    </h1>
-                    <p class="mt-5 text-muted">Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit. Lorem ipsum dolor sit amet consectetur.
+            <div class="row">
+                <div class="col-lg-6 column">
+                    <h1 class="title">Make </h1>
+                    <h1 class="second-title">remote work</h1>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur.
+                        Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit. Lorem ipsum dolor sit amet
+                        consectetur.
                     </p>
-                    <a href="#" class="btn btn-lg btn-dark  mt-4">Buy now</a>
+                    <a href="#" class="button">Learn More</a>
                 </div>
 
-                <div class="col-md-5 mt-5 justify-content-end align-items-end p-5">
-                    <img src="/images/image-hero-desktop.png" class="img-fluid  d-none d-lg-block" alt="image-hero-desktop">
+                <div class="col-lg-6">
+                    <img class="image" src="/images/image-hero-desktop.png" alt="image-hero-desktop">
                     <!-- <img src="/images/image-hero-mobile.png" class="img-fluid d-none d-xl-block" alt=""> -->
                 </div>
             </div>
         </div>
 
+
     </section>
-    
 
 
 
@@ -76,7 +92,8 @@
 
 
 
-<script src="/slime/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+
+    <script src="/slime/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
