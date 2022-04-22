@@ -5,5 +5,56 @@
 }
 
 #logo{
-    font-size: 40px;
+    font-size: 30px;
+}
+
+
+#Hero{
+    padding: 7% 6%;
+    text-align: center;
+
+
+}
+.column{
+    padding: 5% 7%;
+    text-align: left;
+}
+
+.title{
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+
+.second-title{
+    /* padding: 10px; */
+    font-size: 65px;
+    
+}
+
+.text{
+    margin-bottom: 50px;
+}
+
+
+.button{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 10px 13px;
+    background: black;
+    
+}
+
+
+.image{
+    height: 40%;
+}
+
+@media screen and (max-width:1000px) {
+    .image{
+        display: none;
+    }
+    
 }
