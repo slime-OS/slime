@@ -10,19 +10,15 @@
 
 
 #Hero{
-    padding: 7% 6%;
     text-align: center;
 
 
 }
-.column{
-    padding: 5% 7%;
-    text-align: left;
-}
+
 
 .title{
     font-size: 65px;
-    margin-bottom: 15px;
+    margin-bottom: 0;
 }
 
 .second-title{
@@ -40,16 +36,17 @@
     text-decoration: none;
     border: 1px solid black;
     border-radius: 15px;
-    color: whitesmoke;
-    font-size: 25px;
-    padding: 10px 13px;
+    color: #ffff;
+    font-size: 20px;
+    padding: 10px 10px;
     background: black;
     
 }
 
 
 .image{
-    height: 40%;
+    height: 53%;
+   
 }
 
 @media screen and (max-width:1000px) {
